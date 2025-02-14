@@ -1,0 +1,15 @@
+
+
+cd server
+npm run dev
+
+
+cd client
+npm run dev --host
+
+cd test
+npm install -D cypress
+npx cypress open
+
+
+
